@@ -3,5 +3,7 @@ An exercise in creating python scripts, web scraping, usability and user notific
 
 ## Setup Environment
 - Launch virtual python environment (from root directory): source venv/bin/activate
+- Shutdown virtual environment: deactivate
 - Add flask to path: export flask_application=my_app.py
 - Launch server: flask run
+- Stop server: ctrl + c
