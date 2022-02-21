@@ -3,7 +3,7 @@
 {% block content %}
     <h1>{% block title %} Welcome to Ready Job {% endblock %}</h1>
     {% for job in jobs %}
-        <a href="#">
+        <a href="{{ url_for('job', job_id=job['id']) }}">
             <h2>{{ job['title'] }}</h2>
         </a>
         <span class="badge badge-primary">{{ job['created'] }}</span>
